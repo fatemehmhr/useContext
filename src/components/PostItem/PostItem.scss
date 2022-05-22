@@ -1,0 +1,22 @@
+.post-item {
+  padding: 15px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+.post-item__header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.post-item__header h2 {
+  text-transform: uppercase;
+  font-size: 19px;
+  margin: 10px 0;
+}
+.post-item__header p {
+  margin: 0;
+}
+.post-item-content img {
+  width: 100%;
+  display: block;
+}

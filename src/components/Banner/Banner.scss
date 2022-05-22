@@ -1,0 +1,40 @@
+.banner {
+  position: relative;
+  img {
+    width: 100%;
+    display: block;
+  }
+  .banner-text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: white;
+    transform: translate(20%, -50%);
+    h2 {
+      line-height: 40px;
+      font-size: 35px;
+      span {
+        font-size: 17px;
+      }
+    }
+    a {
+      color: black;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 15px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+}
+//////////////////////////////////////////////////////
+@media only screen and (max-width: 780px) {
+  .banner-text {
+    h2 {
+      font-size: 20px !important;
+    }
+    a {
+      padding: 6px;
+      font-size: 10px;
+    }
+  }
+}

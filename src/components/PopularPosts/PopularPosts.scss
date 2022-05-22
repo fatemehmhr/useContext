@@ -1,0 +1,31 @@
+.popular-posts ul {
+    padding: 0;
+    margin: 0;
+  }
+  .popular-posts ul::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .popular-posts ul li {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: white;
+  }
+  .popular-posts ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .popular-posts ul li img {
+    width: 50px;
+    float: left;
+    padding: 5px;
+    margin-top: 8px;
+  }
+  .popular-posts ul li p {
+    margin-left: 58px;
+    font-size: 14px;
+  }
